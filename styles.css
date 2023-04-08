@@ -67,9 +67,10 @@ body{
 padding: 20px;
 box-shadow: 0 10px 10px rgba(0, 0, 0, .2) ;
 border-radius: 5px;
-border-top: var(--card-background1)
+border-top: var(--card-background1);
+display: flex;
+flex-direction: column;
 }
-
 .card2{
     border-top: var(--card-background2)
 }
@@ -94,6 +95,8 @@ border-top: var(--card-background1)
 .card_img{
     display: block;
     margin-left: auto;
+    margin-top: auto;
+    padding-bottom:20px ;
     
 }
 
@@ -112,7 +115,12 @@ border-top: var(--card-background1)
         grid-template-rows: repeat(2, 1fr);
         
     }
-
+    
+     .card{
+        min-height: 260px;
+        padding-bottom: 10px;
+    }
+    
     .card1{
         grid-column: 1/2;
         grid-row: 1/3;
