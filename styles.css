@@ -106,6 +106,18 @@ flex-direction: column;
         max-width: 1200px;
         
     }
+    
+     .main_title{
+        font-weight: 200;
+        font-size: 2rem;
+        margin-bottom: 0;
+        
+    }
+    
+    .main_subtitle{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
 
     .cards{
         display: grid;
